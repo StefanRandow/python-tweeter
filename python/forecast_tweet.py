@@ -3,12 +3,12 @@ import time
 from datetime import datetime,timezone
 import urllib
 
-A_TOKEN = '1661120084021051392-8BwcJoJO91n965L0Fq0HqxcEkrToZf'
-A_SECRET = 'BYwPFKwRZJOfN3WJByKKZEScgSLYgXmv1jFjAxjqSZ1b6'
-CO_TOKEN = 'RE8dThVaC4ocBSUy7KAhuwXKo'
-CO_SECRET = 'O5EiSAIjP1qfVwi88drRJ0b991xSqd3Nh4i5vjhLaHIYBRhpUA'
-CL_TOKEN = 'V3BmclhSa250cE9VT1RWYVNnVXE6MTpjaQ'
-CL_SECRET = 'wsETWgspKnnhnSgQmqv-cU6kqJAAPTsZPUJF3vw4Yb9AAwpy3C'
+A_TOKEN = 'ENTER_INFO_HERE'
+A_SECRET = 'ENTER_INFO_HERE'
+CO_TOKEN = 'ENTER_INFO_HERE'
+CO_SECRET = 'ENTER_INFO_HERE'
+CL_TOKEN = 'ENTER_INFO_HERE'
+CL_SECRET = 'ENTER_INFO_HERE'
 
 client = tweepy.Client(consumer_key=CO_TOKEN, consumer_secret=CO_SECRET, access_token=A_TOKEN, access_token_secret=A_SECRET)
 
